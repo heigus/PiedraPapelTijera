@@ -8,7 +8,7 @@ function changeImage(newColor) {
         jugador = 'Piedra';
     }
     if(newColor == 'Papel'){
-        document.getElementById('imagens').src="https://hipertextual.com/files/2017/09/papel-scaled.jpg";
+        document.getElementById('imagens').src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryD0VdldI1nqzCkLf32JMy160-yZzeKJy6w&usqp=CAU";
         jugador = 'Papel';
     }
     if(newColor == 'Tijeras'){
@@ -37,7 +37,7 @@ function changeImagePC() {
         document.getElementById('imagensxd').src="https://www.tekcrispy.com/wp-content/uploads/2018/11/Herramientas-de-Piedra-P-640x409.jpg";
     }
     if(maquinaG == 'Papel'){
-        document.getElementById('imagensxd').src="https://hipertextual.com/files/2017/09/papel-scaled.jpg";
+        document.getElementById('imagensxd').src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryD0VdldI1nqzCkLf32JMy160-yZzeKJy6w&usqp=CAU";
     }
     if(maquinaG == 'Tijeras'){
         document.getElementById('imagensxd').src="https://images-na.ssl-images-amazon.com/images/I/318J5mHXGTL._AC_.jpg";
@@ -68,7 +68,7 @@ function validacion(jugadorX,maquinaGX){
         document.getElementById('itemC').innerHTML = "🥳 GANASTE 🥳";
     }
     if(maquinaGX == "Piedra" && jugadorX == "Papel"){
-        document.getElementById('itemC').innerHTML = "🥳 GANASTE 🥳";
+        document.getElementById('itemC').innerHTML = "🥳 GANASTE luisa 🥳";
     }   
     if(maquinaGX == "Tijeras" && jugadorX == "Piedra"){
         document.getElementById('itemC').innerHTML = "🥳 GANASTE 🥳";
