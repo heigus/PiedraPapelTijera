@@ -65,12 +65,12 @@ function validacion(jugadorX,maquinaGX){
     }
     //casos ganar
     if(maquinaGX == "Papel" && jugadorX == "Tijeras"){
-        document.getElementById('itemC').innerHTML = "🥳 GANASTE 🥳";
+        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
     }
     if(maquinaGX == "Piedra" && jugadorX == "Papel"){
-        document.getElementById('itemC').innerHTML = "🥳 GANASTE luisa 🥳";
+        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
     }   
     if(maquinaGX == "Tijeras" && jugadorX == "Piedra"){
-        document.getElementById('itemC').innerHTML = "🥳 GANASTE 🥳";
+        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
     }
 }
