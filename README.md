@@ -1,3 +1,3 @@
 # PiedraPapelTijera
-Un pequeño experimento de integración de HTML CSS y JS el clasico juego de piedra papel y tijera contra la PC
+A small experiment of integration between HTML, CSS and JS in the classic game  jan-ken (rock, paper, scissors) against the machine
 https://heigus.github.io/PiedraPapelTijera/
