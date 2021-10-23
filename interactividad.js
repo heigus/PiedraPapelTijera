@@ -51,26 +51,26 @@ function validacion(jugadorX,maquinaGX){
     // var maquinaGX = maquinaG;
     //CASO EMPATE
     if(jugadorX === maquinaGX){
-        document.getElementById('itemC').innerHTML = "😱 EMPATE 😱";       
+        document.getElementById('itemC').innerHTML = "😱 TIE 😱";       
     }
     //Casos perder
     if(jugadorX == "Papel" && maquinaGX == "Tijeras"){
-        document.getElementById('itemC').innerHTML = "😭PERDISTE😭";
+        document.getElementById('itemC').innerHTML = "😭YOU LOSE😭";
     }
     if(jugadorX == "Piedra" && maquinaGX == "Papel"){
-        document.getElementById('itemC').innerHTML = "😭PERDISTE😭";
+        document.getElementById('itemC').innerHTML = "😭YOU LOSE😭";
     }
     if(jugadorX == "Tijeras" && maquinaGX == "Piedra"){
-        document.getElementById('itemC').innerHTML = "😭PERDISTE😭";
+        document.getElementById('itemC').innerHTML = "😭YOU LOSE😭";
     }
     //casos ganar
     if(maquinaGX == "Papel" && jugadorX == "Tijeras"){
-        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
+        document.getElementById('itemC').innerHTML = "😎 YOU WIN! 😎";
     }
     if(maquinaGX == "Piedra" && jugadorX == "Papel"){
-        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
+        document.getElementById('itemC').innerHTML = "😎 YOU WIN! 😎";
     }   
     if(maquinaGX == "Tijeras" && jugadorX == "Piedra"){
-        document.getElementById('itemC').innerHTML = "😎 GANASTE 😎";
+        document.getElementById('itemC').innerHTML = "😎 YOU WIN! 😎";
     }
 }
