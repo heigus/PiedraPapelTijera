@@ -4,7 +4,7 @@ function changeImage(newColor) {
     //var elem = document.getElementById('imagens');
 
     if(newColor == 'Piedra'){
-        document.getElementById('imagens').src="https://www.tekcrispy.com/wp-content/uploads/2018/11/Herramientas-de-Piedra-P-640x409.jpg";
+        document.getElementById('imagens').src="https://plustatic.com/860/conversions/fases-ciclo-rocas-social.jpg";
         jugador = 'Piedra';
     }
     if(newColor == 'Papel'){
@@ -34,7 +34,7 @@ function changeImagePC() {
     }
 
     if(maquinaG == 'Piedra'){
-        document.getElementById('imagensxd').src="https://www.tekcrispy.com/wp-content/uploads/2018/11/Herramientas-de-Piedra-P-640x409.jpg";
+        document.getElementById('imagensxd').src="https://plustatic.com/860/conversions/fases-ciclo-rocas-social.jpg";
     }
     if(maquinaG == 'Papel'){
         document.getElementById('imagensxd').src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryD0VdldI1nqzCkLf32JMy160-yZzeKJy6w&usqp=CAU";
